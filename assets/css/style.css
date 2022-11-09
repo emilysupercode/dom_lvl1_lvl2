@@ -1,0 +1,182 @@
+.style {
+    display: inline-block;
+    border-radius: 5px;
+    background: #666;
+    color: white;
+    padding: 5px;
+}
+
+
+.example {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.changed {
+    background-color: black;
+    color: white;
+}
+
+/*===========================
+        2_1
+============================*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listContainer {
+    display: flex;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.rotate {
+    background-color: pink;
+    transform: rotateY(180deg);
+    scale: 1.1;
+    margin: 5px;
+}
+
+/*===========================
+        2_2
+============================*/
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div#ex2_2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*===========================
+        2_3
+============================*/
+.bg1 {
+    background-color: #f6c89f;
+    color: #333;
+}
+
+.bg2 {
+    background-color: #ffe7d1;
+    color: #333;
+}
+
+.bg3 {
+    background-color: #4b8e8d;
+    color: #333;
+}
+
+.bg4 {
+    background-color: #396362;
+    color: #333;
+}
+
+.bg5 {
+    background-color: #333;
+    color: #333;
+}
+
+/*===========================
+        2_4
+============================*/
+
+.exercise2_4 {
+    padding: 5px;
+    display: inline-block;
+    background: #999;
+    border-radius: 5px;
+}
+
+.option1 {
+    background-color: mediumorchid;
+}
+
+.option2 {
+    background-color: mintcream;
+}
+
+.option3 {
+    background-color: dodgerblue;
+}
+
+.option4 {
+    background-color: goldenrod;
+}
+
+.option5 {
+    background-color: wheat;
+}
+
+.option6 {
+    background-color: mediumturquoise;
+}
+
+.option7 {
+    background-color: moccasin;
+}
+
+.option8 {
+    background-color: firebrick;
+}
+
+.option9 {
+    background-color: limegreen;
+}
+
+.option10 {
+    background-color: slategray;
+}
+
+input {
+    background: #333;
+    color: white;
+}
