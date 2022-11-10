@@ -85,3 +85,23 @@ buttonClick.addEventListener("click", (event) => {
 // ==================================
 // lvl 2_10
 // ==================================
+
+const divChange = document.getElementById("element");
+
+function small() {
+    divChange.classList.add("small");
+    divChange.classList.remove("middle")
+    divChange.classList.remove("bigCrazy")
+}
+
+function middle() {
+    divChange.classList.remove("small");
+    divChange.classList.add("middle")
+    divChange.classList.remove("bigCrazy")
+}
+
+function bigCrazy() {
+    divChange.classList.remove("small");
+    divChange.classList.remove("middle")
+    divChange.classList.add("bigCrazy")
+}

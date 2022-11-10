@@ -136,3 +136,56 @@ ul.exercise2_3 .bg5 {
     background: #999;
     border-radius: 5px;
 }
+
+/*===========================
+        2_10
+============================*/
+@font-face {
+    font-family: 'DancingScript-Bold';
+    src: url("../fonts/DancingScript-Bold.ttf");
+}
+
+section.exercise2_10 {
+    font-family: 'Karla', sans-serif;
+}
+
+section.exercise2_10 button {
+    background-color: #035aa6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wrapper {
+    max-width: 500px;
+}
+
+section.exercise2_10 div {
+    border-radius: 5px;
+}
+
+section.exercise2_10 .small {
+    margin: 10px 0;
+    border: 5px solid gray;
+    color: green;
+}
+
+
+section.exercise2_10 .middle {
+    margin: 10px 0;
+    border: 20px solid gray;
+    color: green;
+}
+
+section.exercise2_10 .bigCrazy {
+    margin: 10px 0;
+    border: 20px solid mediumslateblue;
+    color: orangered;
+    font-size: 40px;
+    font-family: 'DancingScript-Bold', serif;
+}
