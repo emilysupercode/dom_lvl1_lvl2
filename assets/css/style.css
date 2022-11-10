@@ -35,11 +35,11 @@ ul {
     justify-content: space-between;
 }
 
-.listContainer {
+ul .listContainer {
     display: flex;
 }
 
-li a {
+ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -47,7 +47,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+ul li a:hover:not(.active) {
     background-color: #111;
 }
 
@@ -100,27 +100,28 @@ div#ex2_2 {
 /*===========================
         2_3
 ============================*/
-.bg1 {
+
+ul.exercise2_3 .bg1 {
     background-color: #f6c89f;
     color: #333;
 }
 
-.bg2 {
+ul.exercise2_3 .bg2 {
     background-color: #ffe7d1;
     color: #333;
 }
 
-.bg3 {
+ul.exercise2_3 .bg3 {
     background-color: #4b8e8d;
     color: #333;
 }
 
-.bg4 {
+ul.exercise2_3 .bg4 {
     background-color: #396362;
     color: #333;
 }
 
-.bg5 {
+ul.exercise2_3 .bg5 {
     background-color: #333;
     color: #333;
 }
@@ -134,49 +135,4 @@ div#ex2_2 {
     display: inline-block;
     background: #999;
     border-radius: 5px;
-}
-
-.option1 {
-    background-color: mediumorchid;
-}
-
-.option2 {
-    background-color: mintcream;
-}
-
-.option3 {
-    background-color: dodgerblue;
-}
-
-.option4 {
-    background-color: goldenrod;
-}
-
-.option5 {
-    background-color: wheat;
-}
-
-.option6 {
-    background-color: mediumturquoise;
-}
-
-.option7 {
-    background-color: moccasin;
-}
-
-.option8 {
-    background-color: firebrick;
-}
-
-.option9 {
-    background-color: limegreen;
-}
-
-.option10 {
-    background-color: slategray;
-}
-
-input {
-    background: #333;
-    color: white;
 }
